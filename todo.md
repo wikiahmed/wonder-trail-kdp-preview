@@ -9,3 +9,7 @@
 - [ ] Add animated page-flip transitions to spread navigation.
 - [ ] Add a simulated Kindle device-frame viewing mode.
 - [ ] Validate desktop/mobile rendering and save an enhanced checkpoint.
+- [ ] Integrate approved interior artwork into the preview sequence.
+- [ ] Add readable cover typography to the approved cover source.
+- [ ] Verify trim-safe area, bleed assumptions, gutter clearance, and text contrast.
+- [ ] Capture final desktop and mobile proof views and save a verified checkpoint.

@@ -112,6 +112,14 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(230, 168, 59, 0.
   .spread-frame::before { content:""; position:absolute; top:-6px; left:34px; width:48px; height:11px; background:rgba(255,255,255,.46); transform:rotate(-3deg); box-shadow:0 2px 5px rgba(88,67,38,.08); }
   .spread-art { position:relative; aspect-ratio: 16 / 9; overflow:hidden; border-radius: 9px; background:#dbe7de; }
   .spread-art img { width:100%; height:100%; display:block; object-fit:cover; }
+  .cover-art { aspect-ratio:4 / 5; }
+  .cover-art img { object-position:center 58%; }
+  .cover-title-layer { position:absolute; left:8%; right:8%; top:7%; color:#fffaf0; text-align:center; text-shadow:0 2px 9px rgba(31,66,48,.44); }
+  .cover-series { font-size:clamp(8px, 1vw, 12px); font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
+  .cover-title-layer h2 { margin:10px 0 0; font-family:"Fraunces", serif; font-size:clamp(25px, 3.2vw, 48px); line-height:.94; letter-spacing:-.055em; }
+  .cover-title-layer h2 span { color:#f5d77f; }
+  .cover-byline { margin-top:14px; font-size:clamp(9px, .95vw, 13px); font-weight:700; letter-spacing:.04em; }
+
   .spread-overlay { position:absolute; inset: 0; pointer-events:none; background: linear-gradient(90deg, rgba(248,241,223,.08), transparent 48%, rgba(248,241,223,.05)); }
   .spread-art.flip-next { animation: page-flip-next 520ms cubic-bezier(.23,1,.32,1); transform-origin:left center; backface-visibility:hidden; }
   .spread-art.flip-prev { animation: page-flip-prev 520ms cubic-bezier(.23,1,.32,1); transform-origin:right center; backface-visibility:hidden; }
@@ -121,6 +129,10 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(230, 168, 59, 0.
   .kindle-view .spread-frame::before { display:none; }
   .kindle-view .spread-frame::after { content:""; position:absolute; left:50%; bottom:8px; width:58px; height:4px; border-radius:999px; transform:translateX(-50%); background:rgba(255,255,255,.55); }
   .kindle-view .spread-art { aspect-ratio:6 / 10; border-radius:7px; background:#e9e3d5; box-shadow:inset 0 0 0 1px rgba(255,255,255,.22); }
+  .kindle-view .cover-art { aspect-ratio:6 / 10; }
+  .kindle-view .cover-title-layer { top:8%; left:9%; right:9%; }
+  .kindle-view .cover-title-layer h2 { font-size:clamp(22px, 4vw, 36px); }
+
   .kindle-view .spread-art img { object-position:center; }
   .kindle-view .folio { color:rgba(255,255,255,.62); }
   .kindle-view .spread-copy { font-size:clamp(9px, 1vw, 13px); width:72%; left:14%; top:7%; }
@@ -207,6 +219,9 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(230, 168, 59, 0.
     .toolbar-group { flex-wrap:wrap; }
     .spread-frame { padding:6px; border-radius:11px; }
     .spread-art { aspect-ratio: 4 / 3; }
+    .cover-art { aspect-ratio: 4 / 5; }
+    .cover-title-layer h2 { font-size:clamp(24px, 8vw, 38px); }
+
     .kindle-view .spread-frame { padding:9px 9px 18px; border-radius:22px; }
     .kindle-view .spread-art { aspect-ratio:6 / 10; }
     .kindle-view .spread-copy, .kindle-view .spread-copy.right { width:74%; left:13%; right:auto; font-size:9px; }

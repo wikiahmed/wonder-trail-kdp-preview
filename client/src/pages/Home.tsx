@@ -36,6 +36,15 @@ const ASSETS = {
   spread11: "/manus-storage/Story_Spread_11_8383ce25.png",
   spread12: "/manus-storage/Story_Spread_12_c68ec780.png",
   spread13: "/manus-storage/Story_Spread_13_40eb0086.png",
+  interior1: "/manus-storage/supplied-page-02_fbb189d6.png",
+  interior2: "/manus-storage/supplied-page-03_e651d7d2.png",
+  interior3: "/manus-storage/supplied-page-04_64d0f5da.png",
+  interior4: "/manus-storage/supplied-page-05_2c609245.png",
+  interior5: "/manus-storage/supplied-page-06_3aae22c5.png",
+  interior6: "/manus-storage/supplied-page-07_2a979295.png",
+  interior7: "/manus-storage/supplied-page-08_b269e5c9.png",
+  interior8: "/manus-storage/supplied-page-09_9f217f64.png",
+  interior9: "/manus-storage/supplied-page-10_a4a6b74a.png",
   watercolor: "/manus-storage/temp-watercolor-garden_651f8747.jpg",
   path: "/manus-storage/temp-sunlit-path_bafb91b8.jpg",
 };
@@ -55,7 +64,7 @@ const spreads: Spread[] = [
     number: 0,
     title: "Cover",
     image: ASSETS.cover,
-    caption: "Cover source from supplied Storybook.pdf Page 1 — add final title typography",
+    caption: "Approved cover source — typography integrated; confirm final metadata before export",
     copy: <><p><strong>The Mystery of the Morning-Only Flowers</strong></p><p>A Wonder Trail Mystery</p></>,
     accent: "center",
     tag: "cover source",
@@ -63,81 +72,81 @@ const spreads: Spread[] = [
   {
     number: 1,
     title: "The Garden Wakes",
-    image: ASSETS.watercolor,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>The garden hummed softly in the morning light.</p><p>Nia, Omar, and Tess followed the path to Willow Patch.</p></>,
+    image: ASSETS.interior1,
+    caption: "Approved interior art — supplied Storybook.pdf Page 2",
+    copy: <><p>Willow Patch was small, but it was full of enormous things.</p><p>There were enormous sunflowers, enormous puddles after rain, and enormous ideas from Omar.</p><p>“Today,” said Omar, pointing his cardboard telescope at the garden, “we begin the most important investigation in history.”</p><p>Nia opened her small green notebook. Tess lifted her pencil.</p><p>“Or,” she said, “we count the flowers for Saturday’s Open Day.”</p></>,
     accent: "left",
     tag: "opening",
   },
   {
     number: 2,
     title: "A Curious Clue",
-    image: ASSETS.path,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>Something yellow caught Nia’s eye.</p><p>It was not a petal. It was not a pebble.</p></>,
+    image: ASSETS.interior2,
+    caption: "Approved interior art — supplied Storybook.pdf Page 3",
+    copy: <><p>They counted six yellow squash flowers.</p><p>“One,” said Nia, making a careful mark. “Two,” said Tess.</p><p>“Three,” said Omar. “And one suspiciously curly vine.”</p><p>Above the flowers, a fuzzy bumblebee buzzed past. It disappeared inside one yellow trumpet, then wiggled out wearing a little dusting of yellow powder.</p><p>Nia drew a tiny bee in her notebook.</p></>,
     accent: "right",
     tag: "clue 01",
   },
   {
     number: 3,
     title: "Meet the Visitors",
-    image: ASSETS.garden,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>A bumblebee buzzed from flower to flower.</p><p>“It has a job to do,” Tess whispered.</p></>,
+    image: ASSETS.interior3,
+    caption: "Approved interior art — supplied Storybook.pdf Page 4",
+    copy: <><p>At lunchtime, the friends hurried back to Willow Patch.</p><p>All six yellow flowers were folded shut. One was wrinkled at the edges. Another drooped toward the leaves.</p><p>Nia checked her notebook. “They were open this morning.”</p><p>“Then someone folded them!” Omar whispered.</p><p>“Who folds flowers?” asked Tess.</p><p>“A flower-folder,” Omar whispered.</p></>,
     accent: "left",
     tag: "clue 02",
   },
   {
     number: 4,
     title: "Morning-Only Flowers",
-    image: ASSETS.watercolor,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>Some flowers opened wide in the morning.</p><p>By afternoon, they had folded themselves closed.</p></>,
+    image: ASSETS.interior4,
+    caption: "Approved interior art — supplied Storybook.pdf Page 5",
+    copy: <><p>The three friends made a clue board from the back of an old cereal box.</p><p>Nia wrote: CASE: THE MORNING-ONLY FLOWERS.</p><p>Tess drew six yellow flower shapes.</p><p>Omar drew a dragon with a very neat pair of scissors.</p><p>“Theory A,” he said. Tess wrote beneath his picture: VERY UNLIKELY.</p></>,
     accent: "right",
     tag: "clue 03",
   },
   {
     number: 5,
     title: "The Evidence Table",
-    image: ASSETS.desk,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>The detectives gathered every clue they could find.</p><p>Notebook. Telescope. Clipboard. One very suspicious flower.</p></>,
+    image: ASSETS.interior5,
+    caption: "Approved interior art — supplied Storybook.pdf Page 6",
+    copy: <><p>Nia bent close to one folded flower.</p><p>Yellow dust sparkled on a petal. There was more on a nearby leaf—and more on Omar’s sleeve.</p><p>“Did you touch the flower?” Tess asked.</p><p>“Only with my eyes,” said Omar.</p><p>A bumblebee buzzed over their heads and landed on the next open flower.</p><p>“The dragon has a fuzzy helper,” Omar said.</p></>,
     accent: "left",
     tag: "evidence",
   },
   {
     number: 6,
     title: "A Bee’s Busy Route",
-    image: ASSETS.garden,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>The bee carried a little dust from one flower to another.</p><p>“That dust is pollen,” said Nia.</p></>,
+    image: ASSETS.interior6,
+    caption: "Approved interior art — supplied Storybook.pdf Page 7",
+    copy: <><p>The next morning, the friends arrived before the school bell.</p><p>The squash flowers were open again.</p><p>“Morning-only flowers,” said Tess.</p><p>Nia nodded. “They open in the morning and close later.”</p><p>“Like Omar,” said Tess. He yawned so widely that his cardboard telescope fell over.</p><p>Nia added: Clue C: Flowers open early. Flowers close later.</p></>,
     accent: "right",
     tag: "clue 04",
   },
   {
     number: 7,
     title: "The Flower Changes",
-    image: ASSETS.clue,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>Behind one flower, a tiny squash was beginning to grow.</p><p>The mystery was changing shape.</p></>,
+    image: ASSETS.interior7,
+    caption: "Approved interior art — supplied Storybook.pdf Page 8",
+    copy: <><p>“Let’s watch,” said Nia.</p><p>The friends sat on a bench a little way from the garden. They kept their hands to themselves and their voices quiet.</p><p>Soon, a bumblebee slipped into one yellow flower. Then it flew to another.</p><p>A soft yellow puff clung to its fuzzy body.</p><p>“It is carrying tiny treasure,” whispered Omar.</p><p>“Maybe,” said Nia. “But what kind?”</p></>,
     accent: "left",
     tag: "clue 05",
   },
   {
     number: 8,
     title: "No Flower-Folder",
-    image: ASSETS.path,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>Omar inspected the garden with his cardboard telescope.</p><p>“I see no flower-folder,” he announced.</p></>,
+    image: ASSETS.interior8,
+    caption: "Approved interior art — supplied Storybook.pdf Page 9",
+    copy: <><p>The bee landed on a flower with a long, skinny stem. Then it landed on another flower with a little green squash tucked behind the petals.</p><p>Tess leaned close—but not too close.</p><p>“Clue D,” she said. “Some flowers have a tiny squash behind them.”</p><p>“The dragon left an egg?” Omar asked.</p><p>“Theory B: also very unlikely,” he sighed.</p></>,
     accent: "right",
     tag: "false lead",
   },
   {
     number: 9,
     title: "The Garden Listens",
-    image: ASSETS.watercolor,
-    caption: "Temporary reference art — replace with approved spread",
-    copy: <><p>They slowed down and watched.</p><p>When the bee arrived, the flower seemed to tell them the answer.</p></>,
+    image: ASSETS.interior9,
+    caption: "Approved interior art — supplied Storybook.pdf Page 10",
+    copy: <><p>Nia opened her notebook. She drew the bee, the yellow dust, the two flowers, and the little green squash.</p><p>“Maybe the yellow dust has a name,” she said.</p><p>Ms. Paredes, the garden teacher, was watering nearby.</p><p>“That yellow dust is called pollen,” said Ms. Paredes. “Bees visit flowers for food. As they move from flower to flower, they can carry pollen with them.”</p><p>“Like a delivery bee?” said Omar.</p></>,
     accent: "left",
     tag: "turning point",
   },
@@ -188,7 +197,7 @@ function CheckItem({ children, pending = false }: { children: React.ReactNode; p
 }
 
 export default function Home() {
-  const [currentNumber, setCurrentNumber] = useState(10);
+  const [currentNumber, setCurrentNumber] = useState(0);
   const [flipDirection, setFlipDirection] = useState<"next" | "prev">("next");
   const [viewMode, setViewMode] = useState<"desk" | "kindle">("desk");
   const [showText, setShowText] = useState(true);
@@ -257,7 +266,7 @@ export default function Home() {
         <div className="main-content">
           <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 18 }}>
             <div>
-              <div className="eyebrow" style={{ color: "var(--muted-foreground)" }}>Current page pair</div>
+                <div className="eyebrow" style={{ color: "var(--muted-foreground)" }}>Current page pair</div>
               <div style={{ display: "flex", alignItems: "baseline", gap: 11, marginTop: 6 }}>
                 <h2 className="rail-heading" style={{ fontSize: 27, margin: 0 }}>{spread.number === 0 ? "COVER" : `${String(spread.number).padStart(2, "0")} / 13`}</h2>
                 <span style={{ color: "var(--muted-foreground)", fontSize: 13 }}>{spread.title}</span>
@@ -285,12 +294,13 @@ export default function Home() {
               </div>
 
               <div className={`spread-frame ${proofMode === "proof" ? "proof-on" : ""}`}>
-                <div className={`spread-art ${flipDirection === "next" ? "flip-next" : "flip-prev"}`} key={`${spread.number}-${flipDirection}`}>
-                  <img src={spread.image} alt={`${spread.title} temporary page-art placeholder`} />
+                <div className={`spread-art ${spread.number === 0 ? "cover-art" : ""} ${flipDirection === "next" ? "flip-next" : "flip-prev"}`} key={`${spread.number}-${flipDirection}`}>
+                  <img src={spread.image} alt={`${spread.title} approved page-art`} />
                   <div className="spread-overlay" />
                   {showSafeArea && <div style={{ position: "absolute", inset: "6%", border: "1px dashed rgba(46,99,73,.7)", pointerEvents: "none" }} />}
                   {showGutter && <div style={{ position: "absolute", left: "50%", top: 0, bottom: 0, borderLeft: "1px dashed rgba(184,76,60,.85)", boxShadow: "0 0 0 8px rgba(184,76,60,.06)", pointerEvents: "none" }} />}
-                  {showText && <div className={`spread-copy ${spread.accent === "right" ? "right" : ""}`} style={copyStyle}><div className="copy-panel">{spread.copy}</div></div>}
+                  {spread.number === 0 && <div className="cover-title-layer"><div className="cover-series">A WONDER TRAIL MYSTERY</div><h2>The Mystery of the<br /><span>Morning-Only Flowers</span></h2><div className="cover-byline">Written for curious garden detectives</div></div>}
+                  {showText && spread.number !== 0 && <div className={`spread-copy ${spread.accent === "right" ? "right" : ""}`} style={copyStyle}><div className="copy-panel">{spread.copy}</div></div>}
                   {spread.number === 11 && <div className="sign-copy">BUSY FLOWER<br />VISITORS AT WORK<span>LOOK WITH YOUR EYES. GIVE THEM SPACE.</span></div>}
                   {spread.number === 13 && <div className="spread-copy right" style={{ top: "59%", width: "34%", ...copyStyle }}><div className="copy-panel" style={{ padding: "9px 12px" }}><strong style={{ fontSize: ".95em" }}>CASE: THE MYSTERY OF THE SECRET LEAF TUNNELS</strong><p style={{ margin: "5px 0 0", fontStyle: "italic" }}>Case closed—for now.</p></div></div>}
                   {proofMode === "proof" && <div style={{ position: "absolute", right: 12, top: 12, padding: "6px 8px", borderRadius: 4, background: "rgba(35,73,54,.85)", color: "#fff7e8", fontSize: 9, letterSpacing: ".12em", textTransform: "uppercase" }}>Text layer / live</div>}
@@ -317,9 +327,10 @@ export default function Home() {
                 <div className="thread-bridge" aria-hidden="true"><span /><span /><span /></div>
                 <dl className="spec-list">
                 <div className="spec-row"><dt>Trim direction</dt><dd>8.5 × 8.5 in</dd></div>
-                <div className="spec-row"><dt>Spread source</dt><dd>2560 × 1440</dd></div>
+                <div className="spec-row"><dt>Bleed assumption</dt><dd>Full-bleed art</dd></div>
+                <div className="spec-row"><dt>Spread source</dt><dd>2560 × 1440 target</dd></div>
                 <div className="spec-row"><dt>Text size</dt><dd>{readingSize}% · 17 px base</dd></div>
-                <div className="spec-row"><dt>Current art</dt><dd>{isFinalArt ? "Final master slot" : "Temp reference"}</dd></div>
+                <div className="spec-row"><dt>Current art</dt><dd>{spread.number === 0 || isFinalArt ? "Approved master" : "Approved interior"}</dd></div>
               </dl>
 
               <div style={{ marginTop: 19 }}>
@@ -354,8 +365,8 @@ export default function Home() {
               <div className="eyebrow">Preflight snapshot</div>
               <h2 className="card-title" style={{ margin: "7px 0 0" }}>Ready for the layout pass.</h2>
               <p className="card-subtitle">The prototype is structured like a real proof, while art slots remain replaceable.</p>
-              <div className="mini-cover" style={{ marginTop: 16 }}><img src={ASSETS.desk} alt="Temporary cover reference" /><img className="cover-stamp" src={ASSETS.mark} alt="" /><div className="mini-cover-copy"><div className="small">A Willow Patch mystery</div><h3>Morning-Only<br />Flowers</h3><p>Wonder Trail Mysteries · Book one</p></div></div>
-              <div className="check-list" style={{ marginTop: 16 }}><CheckItem>Text is separate from illustration layers.</CheckItem><CheckItem>Gutter and safe-area overlays are available.</CheckItem><CheckItem>Page map contains cover + 13 story spreads.</CheckItem><CheckItem pending>Replace temporary reference images with final masters.</CheckItem><CheckItem pending>Export print PDF and fixed-layout Kindle files.</CheckItem></div>
+              <div className="mini-cover" style={{ marginTop: 16 }}><img src={ASSETS.cover} alt="Approved cover source" /><img className="cover-stamp" src={ASSETS.mark} alt="" /><div className="mini-cover-copy"><div className="small">A Willow Patch mystery</div><h3>Morning-Only<br />Flowers</h3><p>Wonder Trail Mysteries · Book one</p></div></div>
+              <div className="check-list" style={{ marginTop: 16 }}><CheckItem>Approved interior masters are mapped to story spreads 1–13.</CheckItem><CheckItem>Cover title stays inside the visible trim-safe zone.</CheckItem><CheckItem>Gutter and safe-area overlays are available for review.</CheckItem><CheckItem>Full-bleed art is assumed; confirm exact KDP bleed template.</CheckItem><CheckItem pending>Export print PDF and fixed-layout Kindle files.</CheckItem></div>
               <button className="text-button primary" style={{ marginTop: 17, width: "100%", justifyContent: "center" }}><FileText size={14} /> Export checklist</button>
             </section>
           </div>
