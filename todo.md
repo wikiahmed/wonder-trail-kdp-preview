@@ -1,0 +1,11 @@
+- [x] Reconcile the supplied Storybook.pdf page count with the cover and spread numbering.
+- [x] Compare the manuscript’s final story sequence with the remaining-spread map.
+- [x] Confirm whether Spread 10 is missing or simply mislabeled, then report the correction.
+- [x] Assemble the final cover + 13 story-spread manuscript sequence.
+- [x] Apply consistent text, heading, dialogue, and placement-note formatting.
+- [x] Export editable manuscript and reviewable package files.
+- [x] Validate reconciled numbering, asset references, and KDP preflight notes.
+- [ ] Reconcile the preview’s book model to cover + 13 story spreads.
+- [ ] Add animated page-flip transitions to spread navigation.
+- [ ] Add a simulated Kindle device-frame viewing mode.
+- [ ] Validate desktop/mobile rendering and save an enhanced checkpoint.
